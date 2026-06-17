@@ -1,0 +1,88 @@
+\documentclass[12pt, titlepage]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[polish]{babel}
+
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc, arrows.meta, decorations.pathmorphing}
+\usepackage{amsmath}
+\usepackage{pdfpages}
+\usepackage{caption}
+\usepackage[backend=biber, style=numeric]{biblatex}
+
+\captionsetup[table]{skip=6pt}
+\addbibresource{refs.bib}
+
+% typesetting
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage{diagbox}
+\usepackage{upgreek}
+\usepackage{chemmacros}
+\usepackage[version=4]{mhchem}
+\usepackage{indentfirst}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{pdfcomment}
+\usepackage[normalem]{ulem}
+
+\newgeometry{tmargin=2.5cm, bmargin=2.5cm, lmargin=3.5cm, rmargin=2.5cm}
+
+\onehalfspacing
+\tolerance 1414
+\hbadness 1414
+\emergencystretch 1.5em
+\hfuzz 0.3pt
+\widowpenalty=10000
+\vfuzz \hfuzz
+\raggedbottom
+\hyphenpenalty=100000
+% end packages
+
+% title
+\title{Sensory Laboratorium L5\\
+Termopara}
+\author{Wojciech Stawicki, Adam Burakowski, Krystian Cichewicz}
+\date{Czerwiec 2026}
+
+\begin{document}
+\maketitle
+\setcounter{page}{2}
+
+\section{Wstęp teoretyczny}
+
+\section{Cel ćwiczenia}
+
+\section{Metodologia}
+
+\section{Analiza danych}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{"plots/calibration.pdf"}
+	\caption{Krzywa kalibracyjna}
+	\label{fig:cal}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{"plots/heating.pdf"}
+	\caption{Grzanie}
+	\label{fig:heat}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{"plots/cooling.pdf"}
+	\caption{Chłodzenie}
+	\label{fig:cool}
+\end{figure}
+
+\section{Wnioski}
+
+\end{document}
