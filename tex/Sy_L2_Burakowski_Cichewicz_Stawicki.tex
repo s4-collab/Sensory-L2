@@ -56,16 +56,48 @@ Termopara}
 
 \section{Wstęp teoretyczny}
 
+Termopara jest jednym z najczęściej stosowanych czujników temperatury. Składa się z dwóch przewodników (czasami półprzewodników) wykonanych z różnych metali, stopów metali lub polimerów połączonych ze sobą na jednym końcu, tworząc tzw. złącze pomiarowe. Drugie końce przewodników są podłączone do układu pomiarowego i tworzą złącze odniesienia.
+
+Zasada działania termopary opiera się na zjawisku Seebecka. Polega ono na powstawaniu siły elektromotorycznej w obwodzie złożonym z dwóch różnych przewodników, gdy ich złącza znajdują się w różnych temperaturach. Różnica temperatur powoduje nierównomierny ruch nośników ładunku w materiałach, czego efektem jest pojawienie się napięcia elektrycznego. Wartość tego napięcia zależy od rodzaju zastosowanych materiałów oraz od różnicy temperatur pomiędzy złączem pomiarowym a złączem odniesienia.
+
+Do zalet termopar należą prostota budowy, szeroki zakres mierzonych temperatur, niewielkie rozmiary oraz stosunkowo szybka reakcja na zmiany temperatury. Z tego względu znajdują one zastosowanie zarówno w laboratoriach, jak i w przemyśle, między innymi do pomiaru temperatury pieców, silników, instalacji grzewczych oraz procesów technologicznych.
+
 \section{Cel ćwiczenia}
+
+Celem ćwiczenia było zapoznanie się z zasadą działania termopary oraz wykorzystaniem zjawiska termoelektrycznego do pomiaru temperatury.
 
 \section{Metodologia}
 
+\subsection{Wyznaczenie charakterystyki}
+
+Pierwszym etapem ćwiczenia było zebranie danych niezbędnych do wyznaczenia charakterystyki kalibracyjnej termopary, umożliwiającej późniejsze przeliczanie wartości napięcia na temperaturę. W tym celu przeprowadzono pomiar zależności napięcia generowanego przez termoparę od temperatury grzanej wody.
+
+Układ pomiarowy obejmował termoparę z jednym końcem zanurzony w ogrzewanej wodzie, której temperatura była stopniowo zwiększana w zakresie od około $25^\circ$\,C do $90^\circ$\,C. Temperatura była kontrolowana i zapisywana co $5^\circ$\,C, a dla każdej wartości temperatury rejestrowano odpowiadające jej napięcie termoelektryczne. Drugi koniec termopary umieszczono w termosie z mieszaniną wody i lodu, utrzymywaną w warunkach topnienia lodu, co zapewniało w przybliżeniu stałą temperaturę odniesienia równą $0^\circ$\,C.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{"stanowisko1.jpg"}
+    \caption{Zdjęcie stanowiska pomiarowego dla części dotyczącej wyznaczania charakterystyki kalibracyjnej termopary}
+	\label{pic:stan1}
+\end{figure}
+
+\subsection{Określenie temperatury przemiany fazowej stopu}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{"stanowisko2.jpg"}
+    \caption{Stanowisko pomiarowe dla części dotyczącej określenia temperatury przemiany fazowej stopu}
+	\label{pic:stan1}
+\end{figure}
+
 \section{Analiza danych}
+
+Dane zebrane w pierwszej części ćwiczenia posłużyły następnie do sporządzenia krzywej kalibracyjnej, opisującej zależność napięcia od temperatury, co umożliwia wykorzystanie termopary jako czujnika temperatury w badanym zakresie.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{"plots/calibration.pdf"}
-	\caption{Krzywa kalibracyjna}
+	\caption{Krzywa charakterystyki termopary}
 	\label{fig:cal}
 \end{figure}
 
